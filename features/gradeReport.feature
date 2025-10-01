@@ -1,10 +1,10 @@
 Cenário 1: filtrar alunos abaixo da média.
   Given estou logado como professor
   And estou na página “Relatório”
-  And “João” tem nota 3
-  And “Maria” tem nota 5.3
-  And “José” tem nota 7
-  And “Eduarda” tem nota 7.9
+  And “João” possui nota 3
+  And “Maria” possui nota 5.3
+  And “José” possui nota 7
+  And “Eduarda” possui nota 7.9
   When aperto a opção “Filtros”
   And seleciono a opção “Abaixo da média”
   And confirmo
