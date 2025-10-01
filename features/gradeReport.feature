@@ -11,11 +11,11 @@ Cenário 1: filtrar alunos abaixo da média.
   Then ainda estou na página “Relatório”
   And devo ver “João” e “Maria”
 
-Cenário 4: mostrar as porcentagens dos alunos aprovados e reprovados em formato de tabela.
+Cenário 2: mostrar as porcentagens dos alunos aprovados e reprovados em formato de tabela.
   Given estou logado como professor
   And estou na página “Relatório”
-  And “João” foi reprovado por falta
-  And “Maria” foi reprovada por média
+  And “João” reprovou por falta
+  And “Maria” reprovou por média
   And “José” foi aprovado por nota
   And “Eduarda” foi aprovada por nota
   When aperto a opção “Exibir”
