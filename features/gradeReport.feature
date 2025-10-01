@@ -1,3 +1,8 @@
+Feature: Grade report
+  As a professor com múltiplas turmas matriculadas
+  I want to visualizar um relatório de desempenho da turma
+  So that eu possa acompanhar os percentuais de alunos que passaram por média, que irão para a final e que foram reprovados por nota
+
 Cenário 1: filtrar alunos abaixo da média.
   Given estou logado como professor
   And estou na página “Relatório”
