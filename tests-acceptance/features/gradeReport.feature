@@ -30,3 +30,4 @@ Cenário 2: mostrar as porcentagens dos alunos aprovados e reprovados em formato
   Then ainda estou na página “Relatório”
   And devo ver uma tabela com duas colunas, indicando os alunos aprovados e reprovados
   And vejo a quantidade e a porcentagem de alunos aprovados e reprovados
+  And vejo a confirmação do tipo "Tabela" e os parâmetros "Aprovado x Reprovado"
