@@ -44,3 +44,11 @@ Cenário 3: mostrar a tabel de aluno abaixo da média quando não há alunos aba
   And confirmo
   Then ainda estou na página “Relatório”
   And devo ver a tabela vazia com uma mensagem indicando que a tabela esta vazia
+
+Cenário 4: exportar o relatorio como csv.
+	Given que estou logado como professor
+  And estou na página "Relatório"
+  When seleciono a opção "Exportar"
+  And confirmo a exportação
+  Then ainda estou na página "Relatório"
+  And vejo o pop-up para download do arquivo CSV
