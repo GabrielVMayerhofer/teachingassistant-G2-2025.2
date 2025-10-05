@@ -53,3 +53,17 @@ Cenário 4: exportar o relatorio como csv.
   And confirmo a exportação
   Then ainda estou na página "Relatório"
   And vejo o pop-up para download do arquivo CSV
+
+Cenário 5: filtrar alunos com média abaixo de 5.
+  Given estou logado como professor
+  And estou na página “Relatório”
+  And “João” tem nota 3
+  And “Maria” tem nota 4
+  And “José” tem nota 7
+  And “Eduarda” tem nota 7.1
+  When aperto a opção “Filtros”
+  And seleciono a opção “Abaixo de _”
+  And seleciono "5"
+  And confirmo
+  Then ainda estou na página “Relatório”
+  And devo ver “João” e “Maria”
