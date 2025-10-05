@@ -36,7 +36,6 @@ Cenário 3: mostrar a tabel de aluno abaixo da média quando não há alunos aba
 	Given estou logado como professor
   And estou na página “Relatório”
   And “João” tem nota 8.9
-  And “Eduarda” tem nota 7.3
   And “Maria” tem nota 9.5
   And “José” tem nota 7.1
   When aperto a opção “Exibir”
