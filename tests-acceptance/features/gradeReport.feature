@@ -23,7 +23,7 @@ Cenário 2: mostrar as porcentagens dos alunos aprovados e reprovados em formato
   And “Maria” reprovou por média
   And “José” foi aprovado por nota
   And “Eduarda” foi aprovada por nota
-  When aperto a opção “Exibir”
+  When aperto a opção “Exibição”
   And seleciono o tipo “Tabela”
   And seleciono o parâmetro de “Aprovado x Reprovado”
   And confirmo
